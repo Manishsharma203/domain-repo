@@ -8,7 +8,7 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <div className='text-center pt-5' style={{background:'#E6E6E6'}}>
+                <div className='text-center py-5' style={{background:'#E6E6E6'}}>
                     <img className={`rounded ${styles.cover}`} src='/UnderCnst.png' alt='Designed by Freepik'/>
                     <div className='p-5 text-left'>
                         <div className={`pt-5 ${styles.t1}`} >Meanwhile Check this out </div>
