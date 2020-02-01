@@ -1,0 +1,23 @@
+.cover{
+    width:80%
+}
+.t1{
+    font-family: Bangers;
+    font-size: 40px;
+}
+.btn{
+    font-size: 30px;
+    font-family: Girassol;
+}
+
+@media (max-width:577px){
+    .cover{
+        width:90%
+    }
+    .t1{
+        font-size: 25px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+}
