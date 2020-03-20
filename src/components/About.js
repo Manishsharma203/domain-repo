@@ -37,7 +37,7 @@ class About extends React.Component{
                             </div>
                             <div className='mx-3 row'>
                                 <i className="material-icons"> phone </i>
-                                <p>0123456789</p>
+                                <p>9555170607</p>
                             </div>
                             <div className='mx-3 row'>
                                 <i className="material-icons"> email </i>
