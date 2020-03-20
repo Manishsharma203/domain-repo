@@ -3,21 +3,37 @@ import React from 'react'
 class Proficiencies extends React.Component{
     constructor(props){
         super(props)
+        this.state={}
     }
     render(){
         return(
-            <div className='m-5'>
-                <div className='row'>
-                    <img className='profIcons' src='HTML.png'/>
-                    <img className='profIcons' src='CSS3.png'/>
-                    <img className='profIcons' src='js.png'/>
-                    <img className='profIcons' src='Bootstrap.png'/>
+            <div>
+                <div className='headings my-5 text-center'>Tech Stack</div>
+                <div className='m-sm-5 d-flex flex-sm-column flex-row'>
+                    <div className='d-flex flex-wrap justify-content-center'>
+                        <img className='profIcons img-fluid' src='HTML.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='CSS3.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='js.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='Bootstrap.png' alt='img'/>
+                    </div>
+                    <div className='d-flex flex-wrap justify-content-center'>
+                        <img className='profIcons img-fluid' src='jquery.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='Reactjs.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='redux.svg' alt='img'/>
+                        <img className='profIcons img-fluid' src='firebase.png' alt='img'/>
+                    </div>
                 </div>
-                <div className='row'>
-                    <img className='profIcons' src='jquery.png'/>
-                    <img className='profIcons' src='Reactjs.png'/>
-                    <img className='profIcons' src='redux.svg'/>
-                    <img className='profIcons' src='github.png'/>
+
+                <div className='headings my-5 text-center'>Tools</div>
+                <div className='m-sm-5 d-flex flex-sm-column flex-row'>
+                    <div className='d-flex flex-wrap justify-content-center'>
+                        <span className="iconify mx-auto my-4" data-icon="logos:visual-studio-code" data-inline="false" style={{fontSize:'100px'}}></span>
+                        <span className="iconify mx-auto my-4" data-icon="logos:slack-icon" data-inline="false" style={{fontSize:'100px'}}></span>
+                    </div>
+                    <div className='d-flex flex-wrap justify-content-center'>
+                        <span className="iconify mx-auto my-4" data-icon="logos:git-icon" data-inline="false" style={{fontSize:'100px'}}></span>
+                        <span className="iconify mx-auto my-4" data-icon="logos:npm-2" data-inline="false" style={{fontSize:'100px'}}></span>
+                    </div>
                 </div>
             </div>
         )

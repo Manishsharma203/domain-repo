@@ -7,7 +7,7 @@ class Achievements extends React.Component{
     render(){
         return(
             <div className='my-5 text-center'>
-                <img className='rounded' src='/masaiHack.png' alt='img' />
+                <img className='rounded img-fluid' src='/masaiHack.png' alt='img' />
                 <div className='h4 my-5'>🏆 Runners up - Masai School Hackathon</div>
             </div>
         )

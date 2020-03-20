@@ -18,13 +18,17 @@ class About extends React.Component{
             return(
                 <div>
                     {this.state.width > 768 ?
-                    <></>:<><div className='display-3 my-5'>PORTFOLIO</div></>}    
+                    <></>:
+                    <><div className='display-3 my-5 text-center'>
+                        {/* <img src='/dummy-profile-pic.jpg' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #360909'}} alt='img'/> */}
+                        <img src='/profpic.png' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #360909'}} alt='img'/>
+                    </div></>}    
 
                     <div className='m-5 text-center'>
-                        <div className='display-4 pt-5 font-weight-bold pt-3' style={{color:'#bf4c24'}}>MANISH SHARMA</div>
-                        <div className='h3 my-2'>Full Stack Developer</div>  
-                        <div className='my-4 col-8 mx-auto h5 text-wrap' style={{textJustify:'auto'}}>
-                        A passionate aspiring Full Stack Developer skilled in MERN stack, moulded and shaped by Masai School's numerous training. Actively ready to join in a great lively team of a good start-up to adapt me in any situation and environment with ease and perform the best.
+                        <div className='display-4 pt-5 pt-3' style={{fontFamily:'Righteous',color:'#bf4c24'}}>MANISH SHARMA</div>
+                        <div className='h3 my-2' style={{fontFamily:'Acme'}}>Front End Developer</div>  
+                        <div className={`my-4 col-sm-8 mx-auto ${styles.description}`}>
+                        A passionate Software Developer trained in Front-End Development, Data Structure and Algorithm at Masai School Intensive Bootcamp. Looking forward to join a company where I shall be able to contribute towards individual and company's growth.
                         </div>
                         <div className='d-flex justify-content-center py-4 row'>
                             <div className='mx-3 row'>
@@ -40,15 +44,25 @@ class About extends React.Component{
                                 <p>mail@manish-sharma.com</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center py-2 row'>
+                        <div className={`${styles.links} links d-flex justify-content-center py-2 row`}>
+                            <a href='https://www.linkedin.com/in/manish-sharma-180347118' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
-                                <img src='/ln.png' style={{width:'50px'}}/>
-                                <p className='my-auto'>LinkedIn</p>
+                                <img src='/ln.png' style={{width:'50px'}} alt='img'/>
+                                <p className='my-auto text-dark'>LinkedIn</p>
                             </div>
+                            </a>
+                            <a href='https://github.com/Manishsharma203' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
-                                <img src='/github.png' style={{width:'50px'}}/>
-                                <p className='my-auto'>Github</p>
+                                <img src='/github.png' style={{width:'50px'}} alt='img'/>
+                                <p className='my-auto text-dark'>Github</p>
                             </div>
+                            </a>
+                            <a href='https://www.hackerrank.com/Manish016' style={{textDecoration:'none'}}>
+                            <div className='mx-4 row'>
+                                <img src='/Hackerrank.png' style={{width:'50px'}} alt='img'/>
+                                <p className='my-auto text-dark'>Hackerrank</p>
+                            </div>
+                            </a>
                         </div>
                         <div className='mx-auto pt-4'>
                             <div className='btn btn-info'>Download CV</div>

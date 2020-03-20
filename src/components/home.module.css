@@ -9,6 +9,16 @@
     font-size: 30px;
     font-family: Girassol;
 }
+.description{
+    font-size: 22px;
+    font-family:'Source Code Pro';
+    text-align: justify;
+}
+.links a:hover{
+    background:#F0CBAC;
+    border-radius: 20px;
+  }
+  
 
 @media (max-width:577px){
     .cover{
@@ -19,5 +29,10 @@
     }
     .btn{
         font-size: 20px;
+    }
+    .description{
+        font-size: 15px;
+        font-family:'Source Code Pro';
+        text-align: inherit;
     }
 }

@@ -35,9 +35,11 @@ class App extends React.Component {
               <Proficiencies />
             </div>
             <div className='my-5 py-5' id='projects'>
+              <div className='headings my-5 text-center'>Projects</div>
               <Projects/>
             </div>
             <div className='my-5 py-5' id='achievements'>
+              <div className='headings my-5 text-center'>Achievements</div>
               <Achievements/>
             </div>
             <div className='my-5 py-5' id='github'>

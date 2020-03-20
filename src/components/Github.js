@@ -1,27 +1,29 @@
 import React from 'react'
+import '../App.css';
 
 class Github extends React.Component{
     constructor(props){
         super(props)
+        this.state={}
     }
     render(){
         return(
             <div>
                 <div className='d-flex flex-wrap justify-content-center m-5'>
-                    <div className='circle h5 p-4 mx-2'>
-                        1000+ CODING HOURS
+                    <div className='circle h5 p-4 mx-2 text-center'>
+                        <div className='m-3'>1200+ CODING HOURS</div>
                     </div>
-                    <div className='circle h5 p-4 mx-2'>
-                        200+ CODING SESSIONS & TASKS
+                    <div className='circle h5 p-4 mx-2 text-center'>
+                        <div className='m-3'>200+ CODING SESSIONS</div>
                     </div>
-                    <div className='circle h5 p-4 mx-2'>
-                        300+ DS/ALGO PROBLEMS
+                    <div className='circle h5 p-3 mx-2 text-center'>
+                        <div className='m-3'>300+ DS/ALGO PROBLEMS</div>
                     </div>
-                    <div className='circle h5 p-4 mx-2'>
-                    100 Hours SOFT SKILLS
+                    <div className='circle h5 p-3 mx-2 text-center'>
+                        <div className='m-3'>100 Hours soft skills</div>
                     </div>
                 </div>
-                <div class="calendar border border-dark m-2">
+                <div class="calendar calnd col-11 mx-auto m-2">
                     Loading the data just for you.
                 </div>
             </div>
