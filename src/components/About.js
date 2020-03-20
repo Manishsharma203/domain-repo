@@ -45,19 +45,19 @@ class About extends React.Component{
                             </div>
                         </div>
                         <div className={`${styles.links} links d-flex justify-content-center py-2 row`}>
-                            <a href='https://www.linkedin.com/in/manish-sharma-180347118' style={{textDecoration:'none'}}>
+                            <a href='https://www.linkedin.com/in/manish-sharma-180347118' target='blank' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
                                 <img src='/ln.png' style={{width:'50px'}} alt='img'/>
                                 <p className='my-auto text-dark'>LinkedIn</p>
                             </div>
                             </a>
-                            <a href='https://github.com/Manishsharma203' style={{textDecoration:'none'}}>
+                            <a href='https://github.com/Manishsharma203' target='blank' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
                                 <img src='/github.png' style={{width:'50px'}} alt='img'/>
                                 <p className='my-auto text-dark'>Github</p>
                             </div>
                             </a>
-                            <a href='https://www.hackerrank.com/Manish016' style={{textDecoration:'none'}}>
+                            <a href='https://www.hackerrank.com/Manish016' target='blank' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
                                 <img src='/Hackerrank.png' style={{width:'50px'}} alt='img'/>
                                 <p className='my-auto text-dark'>Hackerrank</p>
@@ -65,7 +65,9 @@ class About extends React.Component{
                             </a>
                         </div>
                         <div className='mx-auto pt-4'>
-                            <div className='btn btn-info'>Download CV</div>
+                            <a href='https://drive.google.com/file/d/187MK9ZFp4rw2vH4BkyVCidfcW34IHon_/view' target='blank'>
+                             <div className='btn btn-info'>Download CV</div>
+                            </a>
                         </div>
                     </div>
                 </div>
