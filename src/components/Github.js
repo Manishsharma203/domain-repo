@@ -9,17 +9,17 @@ class Github extends React.Component{
     render(){
         return(
             <div>
-                <div className='d-flex flex-wrap justify-content-center m-5'>
-                    <div className='circle h5 p-4 mx-2 text-center'>
+                <div className='d-flex flex-wrap justify-content-center my-5'>
+                    <div className='circle h5 p-4 mx-sm-2 text-center'>
                         <div className='m-3'>1200+ CODING HOURS</div>
                     </div>
-                    <div className='circle h5 p-4 mx-2 text-center'>
+                    <div className='circle h5 p-4 mx-sm-2 text-center'>
                         <div className='m-3'>200+ CODING SESSIONS</div>
                     </div>
-                    <div className='circle h5 p-3 mx-2 text-center'>
+                    <div className='circle h5 p-3 mx-sm-2 text-center'>
                         <div className='m-3'>300+ DS/ALGO PROBLEMS</div>
                     </div>
-                    <div className='circle h5 p-3 mx-2 text-center'>
+                    <div className='circle h5 p-3 mx-sm-2 text-center'>
                         <div className='m-3'>100 Hours soft skills</div>
                     </div>
                 </div>

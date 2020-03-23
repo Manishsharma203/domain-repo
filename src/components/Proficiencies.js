@@ -25,7 +25,7 @@ class Proficiencies extends React.Component{
                 </div>
 
                 <div className='headings my-5 text-center'>Tools</div>
-                <div className='m-sm-5 d-flex flex-sm-column flex-row'>
+                <div className='m-sm-5 d-flex flex-column'>
                     <div className='d-flex flex-wrap justify-content-center'>
                         <span className="iconify mx-auto my-4" data-icon="logos:visual-studio-code" data-inline="false" style={{fontSize:'100px'}}></span>
                         <span className="iconify mx-auto my-4" data-icon="logos:slack-icon" data-inline="false" style={{fontSize:'100px'}}></span>
