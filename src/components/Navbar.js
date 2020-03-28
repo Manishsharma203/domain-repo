@@ -13,7 +13,7 @@ class Navbar extends React.Component {
             <div className='col text-center'>
             <a className='navbar-brand text-center' href="#home">
               {/* <img src='/dummy-profile-pic.jpg' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #F0CBAC'}} alt='img'/>  */}
-              <img src='/profpic.png' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #F0CBAC'}} alt='img'/>
+              <img src='/profpic.jpg' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #F0CBAC'}} alt='img'/>
             </a>
             </div>
             <div className='col-md-12 my-4 font-weight-bold mr-auto'>

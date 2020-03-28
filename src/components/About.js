@@ -21,7 +21,7 @@ class About extends React.Component{
                     <></>:
                     <><div className='display-3 my-5 text-center'>
                         {/* <img src='/dummy-profile-pic.jpg' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #360909'}} alt='img'/> */}
-                        <img src='/profpic.png' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #360909'}} alt='img'/>
+                        <img src='/profpic.jpg' className='img-fluid rounded-circle' style={{width:'220px',border:'15px solid #360909'}} alt='img'/>
                     </div></>}    
 
                     <div className='m-5 text-center'>
