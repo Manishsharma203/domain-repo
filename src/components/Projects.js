@@ -174,6 +174,7 @@ class Projects extends React.Component {
                     </CardContent>
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
+                            <span className="iconify h1 mx-2" data-icon="simple-icons:jquery" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
