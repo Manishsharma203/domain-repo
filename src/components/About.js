@@ -45,7 +45,7 @@ class About extends React.Component{
                             </div>
                         </div>
                         <div className={`${styles.links} links d-flex justify-content-center py-2 row`}>
-                            <a href='https://www.linkedin.com/in/manish-sharma-180347118' target='blank' style={{textDecoration:'none'}}>
+                            <a href='https://www.linkedin.com/in/manish203' target='blank' style={{textDecoration:'none'}}>
                             <div className='mx-4 row'>
                                 <img src='/ln.png' style={{width:'50px'}} alt='img'/>
                                 <p className='my-auto text-dark'>LinkedIn</p>
