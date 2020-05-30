@@ -16,6 +16,43 @@ class Projects extends React.Component {
         return (
             <div>
                 <div className='d-flex flex-sm-row flex-wrap justify-content-sm-center'>
+
+                <Card className="mx-auto my-4 card-project" style={{ width: "400px" }}>
+                  <CardActionArea className="text-center">
+                    <CardMedia
+                      className="mx-auto shadow"
+                      component="img"
+                      style={{ width: "400px" }}
+                      image="covidtracker.png"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h5">
+                      Covid-19 India Tracker
+                      </Typography>
+                      <p className="card-text">A covid-19 tracker web app with comprehensive data of india and its states/UTs, along with all the latest health related news </p>
+                    </CardContent>
+                        <div>
+                            <div className="d-flex techused justify-content-center my-4">
+                                <span className="iconify h1 mx-2" data-icon="logos:redux" data-inline="false"></span>
+                                <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
+                            </div>
+                        </div>
+                  </CardActionArea>
+                  <CardActionArea className="text-center">
+                        <div className='d-flex justify-content-around my-2'>
+                                <Button variant="contained" color='primary'>
+                                    <a href="https://github.com/Manishsharma203/covid19-tracker" target='blank' className="text-white mx-2">Code</a>
+                                </Button>
+                                <Button variant="contained" color='secondary'>
+                                    <a href="https://covid19bharat.netlify.app/" target='blank' className="text-white mx-2">Demo</a>
+                                </Button>
+                        </div>
+                  </CardActionArea>
+                </Card>
+
                 <Card className="mx-auto my-4 card-project" style={{ width: "400px" }}>
                   <CardActionArea className="text-center">
                     <CardMedia
