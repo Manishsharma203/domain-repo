@@ -20,23 +20,23 @@ class NavbarSm extends React.Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav d-flex flex-column">
-              <li class="nav-item ">
-                <a class="nav-link js-scroll-trigger text-white" href="#about">About</a>
+              <li className="nav-item ">
+                <a className="nav-link js-scroll-trigger text-white" href="#about">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger text-white" href="#proficiencies">Proficiencies</a>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger text-white" href="#proficiencies">Proficiencies</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger text-white" href="#projects">Projects</a>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger text-white" href="#projects">Projects</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger text-white" href="#achievements">Achievements</a>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger text-white" href="#achievements">Achievements</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger text-white" href="#github">Github</a>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger text-white" href="#github">Github</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger text-white" href="#cv">Download CV</a>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger text-white" href="#cv">Download CV</a>
               </li>
             </ul>
           </div>

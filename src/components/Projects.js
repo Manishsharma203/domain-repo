@@ -34,7 +34,7 @@ class Projects extends React.Component {
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
                                 <span className="iconify h1 mx-2" data-icon="logos:redux" data-inline="false"></span>
-                                <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
@@ -70,7 +70,7 @@ class Projects extends React.Component {
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
                                 <span className="iconify h1 mx-2" data-icon="logos:redux" data-inline="false"></span>
-                                <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:firebase" data-inline="false"></span>
@@ -108,7 +108,7 @@ class Projects extends React.Component {
                             <div className="d-flex techused justify-content-center my-4">
                                 <span className="iconify h1 mx-2" data-icon="logos:redux" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
-                                <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ class Projects extends React.Component {
                     </CardContent>
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
-                                <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                                <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                                 <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
@@ -176,7 +176,7 @@ class Projects extends React.Component {
                     </CardContent>
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
-                            <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                            <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
@@ -246,7 +246,7 @@ class Projects extends React.Component {
                     </CardContent>
                         <div>
                             <div className="d-flex techused justify-content-center my-4">
-                            <span class="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
+                            <span className="iconify h1 mx-2" data-icon="logos:react" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:html-5" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:css-3" data-inline="false"></span>
                             <span className="iconify h1 mx-2" data-icon="logos:bootstrap" data-inline="false"></span>
