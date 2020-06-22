@@ -33,7 +33,7 @@ class About extends React.Component{
                         <div className='d-flex justify-content-center py-4 row'>
                             <div className='mx-3 row'>
                                 <i className="material-icons"> place </i>
-                                <p>Bengaluru</p>
+                                <p>Delhi</p>
                             </div>
                             <div className='mx-3 row'>
                                 <i className="material-icons"> phone </i>
