@@ -14,13 +14,13 @@ class Proficiencies extends React.Component{
                         <img className='profIcons img-fluid' src='HTML.png' alt='img'/>
                         <img className='profIcons img-fluid' src='CSS3.png' alt='img'/>
                         <img className='profIcons img-fluid' src='js.png' alt='img'/>
-                        <img className='profIcons img-fluid' src='Bootstrap.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='ts-logo-512.png' alt='img'/>
                     </div>
                     <div className='d-flex flex-wrap justify-content-center'>
-                        <img className='profIcons img-fluid' src='jquery.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='material-ui-480.png' alt='img'/>
                         <img className='profIcons img-fluid' src='Reactjs.png' alt='img'/>
                         <img className='profIcons img-fluid' src='redux.svg' alt='img'/>
-                        <img className='profIcons img-fluid' src='firebase.png' alt='img'/>
+                        <img className='profIcons img-fluid' src='graphQl.png' alt='img'/>
                     </div>
                 </div>
 
